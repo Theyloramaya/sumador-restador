@@ -34,3 +34,4 @@ module SumadorCompleto (
 endmodule
 
 ```
+![image](https://github.com/Theyloramaya/sumador-restador/assets/144027596/788ac1e6-1a91-48df-aa51-abe6d1ebbf96)
