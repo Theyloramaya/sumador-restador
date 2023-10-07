@@ -55,3 +55,21 @@ Para lograr la operación de resta, implementaremos la técnica del complemento 
 
 En resumen, este diseño nos permitirá realizar operaciones de suma y resta de tres bits de manera eficiente, cambiando el modo de operación según la entrada "Substract". El circuito se compone de tres sumadores completos adaptados como cajas negras, conectados mediante compuertas XOR para habilitar la operación de resta mediante el complemento a dos.
 ![image](https://github.com/Theyloramaya/sumador-restador/assets/144027596/788ac1e6-1a91-48df-aa51-abe6d1ebbf96)
+# Conclusiones
+
+Versatilidad de Operación: El diseño del sumador-restador ha demostrado ser altamente versátil, ya que permite realizar tanto operaciones de suma como de resta de números binarios de tres bits. Esta versatilidad es esencial en aplicaciones donde se requiere un manejo eficiente de números enteros con signo.
+
+Utilización Eficiente de Sumadores Completos: La implementación de sumadores completos en cada etapa del proceso, junto con la inclusión de un bit de selección, ha resultado en un circuito eficiente que realiza operaciones de suma y resta de manera precisa y rápida. Esto optimiza la utilización de recursos y reduce la complejidad del diseño.
+
+Complemento a 2 para la Resta: La estrategia de utilizar el complemento a 2 en la operación de resta ha demostrado ser efectiva para obtener resultados precisos y coherentes. Esta técnica es ampliamente utilizada en la aritmética binaria y ha sido implementada con éxito en el sumador-restador.
+
+Similitud en las Ecuaciones: Se observa que las ecuaciones utilizadas para representar las operaciones de suma y resta comparten similitudes notables. Esto se debe a la utilización común de la operación XOR en las entradas, lo que simplifica el diseño y facilita la comprensión del funcionamiento del circuito.
+
+Flexibilidad en la Elección de Modo de Operación: La introducción de la entrada de selección en el sumador-restador brinda flexibilidad al usuario para elegir entre el modo de suma o resta. Esto amplía las aplicaciones potenciales del circuito en sistemas donde se necesitan operaciones de suma y resta de manera intercambiable.
+
+# Referencias
+Harris, D. M., & Harris, S. L. (2012). Digital Design and Computer Architecture. Morgan Kaufmann.
+
+Tokheim, R. L. (2014). Digital Electronics: Principles and Applications. McGraw-Hill Education.
+
+Levitin, A. (2011). Introduction to the Design and Analysis of Algorithms. Pearson.
