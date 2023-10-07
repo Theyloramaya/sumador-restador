@@ -1,6 +1,9 @@
 # Laboratorio 2 Sumador-restador
+
  Theylor Andres Amaya Villabon
+ 
  Maria Angélica Lesmes Calderon
+ 
  Diomedes López López
  
 # Introducción
