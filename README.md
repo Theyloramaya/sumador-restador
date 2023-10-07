@@ -18,4 +18,19 @@ Para comprender y diseñar eficazmente un sumador, es necesario analizar su func
 ![image](https://github.com/Theyloramaya/sumador-restador/assets/144027596/574a517e-098a-4963-b4cd-d02d769f3edd)
 
 ![image](https://github.com/Theyloramaya/sumador-restador/assets/144027596/06a8f061-8df8-45b3-b7a4-bd6ad7728abd)
+```
 
+module SumadorCompleto (
+  input A,
+  input B,
+  input Cin,
+  output Cout,
+  output S
+);
+  wire s0;
+  assign s0 = (A ^ B);
+  assign Cout = ((A & B) | (s0 & Cin));
+  assign S = (s0 ^ Cin);
+endmodule
+
+```
